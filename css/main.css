@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+.affix,.navbar-fixed-top{
+-webkit-transform: scale3d(1,1,1);
+}
+body{margin-top:140px}
+/*NAVIGATION*/
+.navbar .main{background: #f36d21; height:86px}
+.navbar .nav{margin-top:50px}
+.navbar .nav>li>a{color:white; text-shadow:none}
+.navbar .navbar-inner{width:780px; margin:auto; float:none; background:none; border:none; box-shadow:none}
+.navbar .nav>li>a.active{font-weight:bold}
+.navbar .nav>li>a:hover{font-weight:bold; color:white; text-shadow:none}
+#fake-body{height:20px}
+#fake-body, #body{width:780px; background: #efefef;-webkit-box-shadow:  0px 3px 5px 1px rgba(0, 0, 0, 0.3);box-shadow:  0px 3px 5px 1px rgba(0, 0, 0, 0.3); -moz-box-shadow:0px 3px 5px 1px rgba(0, 0, 0, 0.3); margin:auto}
+#body{padding:0px 0px;}
+
+/*CONTENT*/
+.columns{margin-top:20px; margin-left:0px !important}
+.row-fluid{padding:35px; padding-top:45px; width:710px; margin-top:-35px}
+#signup{background-color:#fcfcfd}
+.btn{background:#f26822; color:white; border:none; -webkit-border-radius:none; border-radius:0 !important; text-shadow:none}
+input{margin-top:5px}
+body,p,label, input, button, select, textarea{font-size:12px; color:#676767}
+h4{font-size:20px; color:#f36d21; font-weight:normal}
+
